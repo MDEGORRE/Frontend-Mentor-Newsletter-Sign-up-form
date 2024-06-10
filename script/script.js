@@ -4,7 +4,6 @@ const formSubmission = {
         document.querySelector(".dismiss").addEventListener("click", formSubmission.disableSuccessMessage);
     },
 
-
     /**
      * Performs a check on email value submitted. If value matches regex, a thank you section is displayed otherwise calls the emailErrors function.
      * @param {*} event 
